@@ -195,7 +195,7 @@ export default function Home({ data }) {
           {gameState.status === GAME_STATUS.WON && <p>Correct!</p>}
           {gameState.status === GAME_STATUS.LOST && <p>You Lost!</p>}
           {gameState.status === GAME_STATUS.PLAYING && <p>You are playing...</p>}
-          {gameState.status === GAME_STATUS.COMPLETE && <p>You've complete the game!</p>}
+          {gameState.status === GAME_STATUS.COMPLETE && <p>You have completed the game!</p>}
           <button className={[styles.button, styles.newGameButton].join(" ")} type="button" onClick={resetGame}>New Person</button>
         </section>
         {gameState.status === GAME_STATUS.WON && <Confetti width={width} height={height} />}
