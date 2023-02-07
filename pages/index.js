@@ -176,7 +176,7 @@ export default function Home({ data }) {
       </Head>
       <main className={styles.main}>
         <section className={styles.section}>
-          <div class={styles.imageWrapper}>
+          <div className={styles.imageWrapper}>
             {currentPicture &&
               <Image
                 loader={imageLoader}

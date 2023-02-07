@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   height: min(100vh, 900px);
+  font-family: sans-serif;
 }
 
 .section {
